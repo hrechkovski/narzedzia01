@@ -1,0 +1,20 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "nauka noda",
+  "scripts": {
+    "test": "echo Hej to ja, pozdrowionka",
+    "addTwoNumbers10and10": "node addTwoNumbers 10 10",
+    "addTwoNumbers": "node addTwoNumbers",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Radek",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
